@@ -1,0 +1,5 @@
+{
+  "name": "Link Batch Organizer",
+  "description": "An efficient tool to organize a large list of links. Paste your links, and the app will generate a downloadable Excel file, batching them into separate tabs for easy management.",
+  "requestFramePermissions": []
+}
