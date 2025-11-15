@@ -2,22 +2,46 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Link Batch Organizer & List Comparator
+
+A modern web application with two powerful tools:
+
+## 🔗 Batch Organizer
+Organize links or IDs into manageable batches. Perfect for processing large sets of URLs or identifiers.
+
+**Features:**
+- Batch links or IDs by size
+- Optional total link limit
+- Add backstage.eko.com URL prefix automatically
+- Copy batches with one click
+- Real-time link counter
+
+## 📋 List Comparator
+Find the symmetric difference between two lists instantly. Identify which items are unique to each list.
+
+**Features:**
+- Compare two lists side-by-side
+- Detect duplicate items within each list
+- View unique items from each list
+- Real-time item counter
 
 This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1g_4fiWVr27tYoaLJli9ZB9VeI-F1GZPa
 
 ## Run Locally
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:5173`
 
 ## Deploy to Netlify
 

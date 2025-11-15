@@ -1,0 +1,5 @@
+{
+  "name": "List Comparator",
+  "description": "An application to compare two lists and find the unique items in each. Input two separate lists to find items that only one of the lists includes, but not the other.",
+  "requestFramePermissions": []
+}
